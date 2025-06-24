@@ -14,19 +14,13 @@ Our model was trained on an NVIDIA A800-SXM4-80GB GPU.
 
 We conducted 10 distinct data partitions based on [IF_CALC](https://github.com/Ding-Kexin/IF_CALC/blob/main/Model/index_2_data.py) implementation and adopted the average results across these iterations as the final reported outcomes in our study.
 
-* [Houston](https://hyperspectral.ee.uh.edu/)
+* [CAVE]([https://hyperspectral.ee.uh.edu/](https://www.cs.columbia.edu/CAVE/databases/multispectral/)
 
-* [MUUFL](https://github.com/GatorSense/MUUFLGulfport/)
+* [Harvard](http://vision.seas.harvard.edu/hyperspec/)
 
-* [Trento](https://github.com/danfenghong/IEEE_GRSL_EndNet/blob/master/README.md)
+* [Pavia](https://github.com/liangjiandeng/HyperPanCollection)
 
-## 🌈 Results
 
-| Dataset  | OA (%) | AA (%) | Kappa (%) |
-|----------|--------|--------|-----------|
-| Houston    | 95.43 |  96.09 |    95.06  |
-| MUUFL   | 85.97 |  82.11 |    81.80  |
-| Trento  | 99.40 |  98.84 |    99.20  |
 
 ## 🌿 Getting Started
 
@@ -43,20 +37,13 @@ To get started, we recommend setting up a conda environment and installing depen
     pip install PyWavelets
 
 
-### Train and Test
-    python demo.py
+### Train 
+    1、
+    python Train_cave.py
 
 ### Citation
 If this code is useful for your research, please cite this paper.
 
-    @ARTICLE{10989501,
-      author={Song, Qiya and Mo, Feng and Ding, Kexin and Xiao, Lin and Dian, Renwei and Kang, Xudong and Li, Shutao},
-      journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-      title={MCFNet: Multiscale Cross-domain Fusion Network for HSI and LiDAR Data Joint Classification}, 
-      year={2025},
-      volume={},
-      number={},
-      pages={1-12},
-      doi={10.1109/TGRS.2025.3567297}}
+
 
 ## 🌸 Acknowledgment

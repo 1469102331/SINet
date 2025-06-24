@@ -48,4 +48,7 @@ If this code is useful for your research, please cite this paper.
 
 
 ## 🌸 Acknowledgment
-Part of our SINet framework is referred to [DSPNet](https://github.com/syc11-25/DSPNet/tree/main). Code and data processing for the pavia dataset: the code [[Hyper-DSNet](https://github.com/liangjiandeng/Hyper-DSNet)] + the dataset  [[HyperPanCollection](https://github.com/liangjiandeng/HyperPanCollection)] for fair training and testing! We thank all the contributors for open-sourcing
+Part of our SINet framework is referred to [DSPNet](https://github.com/syc11-25/DSPNet/tree/main). 
+Code and data processing for the pavia dataset: the code [[Hyper-DSNet](https://github.com/liangjiandeng/Hyper-DSNet)] + the dataset  [[HyperPanCollection](https://github.com/liangjiandeng/HyperPanCollection)] for fair training and testing! 
+Part of our Train and Test code is referred to [LRTN](https://github.com/YuanyeLiu/Low-Rank-Transformer-For-High-Resolution-Hyperspectral-Computational-Imaging)
+We thank all the contributors for open-sourcing

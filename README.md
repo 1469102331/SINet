@@ -1,5 +1,6 @@
-# SINet
- Spatial Invertible Network With Mamba-Convolution for  Hyperspectral Image Fusion
+#  Spatial Invertible Network With Mamba-Convolution for  Hyperspectral Image Fusion
+
+ The code for 《 Spatial Invertible Network With Mamba-Convolution for  Hyperspectral Image Fusion》
 
 ![Language](https://img.shields.io/badge/language-python-brightgreen) 
 

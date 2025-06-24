@@ -11,8 +11,7 @@ Our model was trained on an NVIDIA A800-SXM4-80GB GPU.
 </div>
 
 ## 👉 Data
-
-We conducted 10 distinct data partitions based on [IF_CALC](https://github.com/Ding-Kexin/IF_CALC/blob/main/Model/index_2_data.py) implementation and adopted the average results across these iterations as the final reported outcomes in our study.
+  NOTE:
 
 * [CAVE](https://www.cs.columbia.edu/CAVE/databases/multispectral/)
 
@@ -34,12 +33,14 @@ To get started, we recommend setting up a conda environment and installing depen
     
     pip install -r requirements.txt
     
-    pip install PyWavelets
-
+    
 
 ### Train 
     
     python Train_cave.py
+
+### Test
+    python Test.py
 
 ### Citation
 If this code is useful for your research, please cite this paper.
@@ -47,3 +48,4 @@ If this code is useful for your research, please cite this paper.
 
 
 ## 🌸 Acknowledgment
+Part of our SINet framework is referred to [DSPNet](https://github.com/syc11-25/DSPNet/tree/main). Code and data processing for the pavia dataset: the code [[Hyper-DSNet](https://github.com/liangjiandeng/Hyper-DSNet)] + the dataset  [[HyperPanCollection](https://github.com/liangjiandeng/HyperPanCollection)] for fair training and testing! We thank all the contributors for open-sourcing

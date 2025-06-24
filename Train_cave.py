@@ -44,8 +44,8 @@ if __name__ == '__main__':
 
     root = "./checkpoint_cave/"
     dataset = 'CAVE'
-    data_path = './Data/CAVE/Train/HSI/'
-    test_path = './Data/CAVE/Test/HSI/'
+    data_path = './Data/CAVE/Train/'
+    test_path = './Data/CAVE/Test/'
 
     path = root + model_name
     print(path)

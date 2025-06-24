@@ -14,7 +14,7 @@ Our model was trained on an NVIDIA A800-SXM4-80GB GPU.
 
 We conducted 10 distinct data partitions based on [IF_CALC](https://github.com/Ding-Kexin/IF_CALC/blob/main/Model/index_2_data.py) implementation and adopted the average results across these iterations as the final reported outcomes in our study.
 
-* [CAVE]([https://hyperspectral.ee.uh.edu/](https://www.cs.columbia.edu/CAVE/databases/multispectral/)
+* [CAVE](https://www.cs.columbia.edu/CAVE/databases/multispectral/)
 
 * [Harvard](http://vision.seas.harvard.edu/hyperspec/)
 
@@ -28,9 +28,9 @@ We conducted 10 distinct data partitions based on [IF_CALC](https://github.com/D
 
 To get started, we recommend setting up a conda environment and installing dependencies via pip. Use the following commands to set up your environment.
     
-    conda create -n mcfnet python==3.11
+    conda create -n sinet_env python==3.11
     
-    conda activate mcfnet
+    conda activate sinet_env 
     
     pip install -r requirements.txt
     
@@ -38,7 +38,7 @@ To get started, we recommend setting up a conda environment and installing depen
 
 
 ### Train 
-    1、
+    
     python Train_cave.py
 
 ### Citation

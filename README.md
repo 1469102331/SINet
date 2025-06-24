@@ -6,7 +6,7 @@
 Our model was trained on an NVIDIA A800-SXM4-80GB GPU.
 
 <div align="center">
-    <img src="SINet.pdf" alt="framework" width="800"/>
+    <img src="SINet.png" alt="framework" width="800"/>
 </div>
 
 ## 👉 Data
